@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  padding: 5.6rem 2.8rem 2.4rem;
+  padding: 5.6rem 2rem 2.4rem;
 
   .hidden {
     display: none;
@@ -87,7 +87,7 @@ export const Logo = styled.div`
     flex-direction: column;
 
     > h1 {
-      font-size: clamp(2.1rem, 0.875rem + 2.17vw, 2.4rem);
+      font-size: 2.4rem;
       font-weight: 700;
       color: ${({ theme }) => theme.COLORS.LIGHT_100};
     }
