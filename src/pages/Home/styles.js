@@ -33,8 +33,10 @@ export const Brand = styled.div`
     left: -3rem;
     bottom: 0;
 
-    width: clamp(17.1rem, 1rem + 1vw, 63.2rem);
-    height: clamp(13.9rem, 1rem + 1vw, 40.6rem);
+    //width: clamp(19.1rem, 56vw, 63.2rem);
+
+    width: clamp(20.1rem, 1rem + 1vw, 63.2rem);
+    height: clamp(14.9rem, 1rem + 1vw, 40.6rem);
   }
 
   .texts {
@@ -42,6 +44,7 @@ export const Brand = styled.div`
     flex-direction: column;
     width: 50%;
     margin-right: 1rem;
+    z-index: 2;
 
     > h1 {
       font-size: clamp(0.8rem, 0.7rem + 1.8vw, 4rem);
